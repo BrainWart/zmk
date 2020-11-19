@@ -28,7 +28,7 @@ ZMK requires the following base packages to first be installed:
 - `pip`
 - `wget`
 - devicetree compiler
-- CMake
+- CMake (3.15 or above)
 - `dfu-util`
 - Various build essentials, e.g. gcc, automake, autoconf
 
@@ -71,7 +71,7 @@ sudo apt install -y \
 
 :::note
 Ubuntu 18.04 LTS release packages a version of CMake that is too old. Please upgrade to Ubuntu 20.04 LTS
-or download and install CMake version 3.13.1 or newer manually.
+or download and install CMake version 3.15.0 or newer manually.
 :::
 </TabItem>
 <TabItem value="raspberryos">
